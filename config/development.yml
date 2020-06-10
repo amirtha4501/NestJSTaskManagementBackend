@@ -1,0 +1,8 @@
+db:
+  host: 'localhost'
+  username: 'ammu'
+  password: process.env.PgPassword
+  synchronize: true
+
+jwt:
+  secret: 'topSecret51'
