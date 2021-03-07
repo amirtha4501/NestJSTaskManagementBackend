@@ -5,6 +5,7 @@ db:
   type: 'postgres'
   port: 5432
   database: 'taskmanager'
+  DATABASE_URL: 'postgres://user:password@host:port/database'
 
 jwt:
   expiresIn: 604800
